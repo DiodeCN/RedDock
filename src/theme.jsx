@@ -1,24 +1,15 @@
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@mui/material/styles';
+import { styled } from '@mui/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#3f51b5',
+      main: '#2e7d32',
     },
     secondary: {
-      main: '#f50057',
+      main: '#ff5722',
     },
-    background: {
-      default: '#fff',
-    },
-  },
-  typography: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    fontWeightLight: 300,
-    fontWeightRegular: 400,
-    fontWeightMedium: 500,
-    fontWeightBold: 700,
   },
 });
 
-export { theme };
+export default theme;
